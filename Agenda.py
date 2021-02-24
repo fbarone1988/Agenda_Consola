@@ -101,7 +101,7 @@ while True:
                     print("")
                 
                 id = int(id)
-                print("Confirma borrar contacto", contactos[id]['Nombre'] + " " + contactos[id]['Apellido'] ,  "con indice", id +"? \n 1 - Si \n 2 - No")
+                print("Confirma borrar contacto", contactos[id]['Nombre'] + " " + contactos[id]['Apellido'] ,  "con indice", id, "? \n 1 - Si \n 2 - No")
                 borrar = input(">>> ")
                 print("")
                 if borrar == "1":
@@ -296,4 +296,4 @@ while True:
         print("Opcion incorrecta.")
         print("")
 
-
+# %%
